@@ -12,7 +12,7 @@ conda update -n base -c defaults conda
 conda env create -f example.yml
 ```
 ### Structure of conda environemtn .yml file:
-```
+```yml
 name: example_name
 
 channels:
