@@ -1,7 +1,7 @@
 # Conda
 ### Search for all available package verions in conda channel:
-```bash
-    conda search -c example_channel -f example_package
+```conda
+conda search -c example_channel -f example_package
 ```   
 ### Update conda in the base environment:
     conda update -n base -c defaults conda
