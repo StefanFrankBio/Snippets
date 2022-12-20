@@ -11,6 +11,10 @@ conda update -n base -c defaults conda
 ```
 conda env create -f example.yml
 ```
+### Remove a conda environment:
+```
+conda env remove -n example_name
+```
 ### Structure of conda environemtn .yml file:
 ```yml
 name: example_name
