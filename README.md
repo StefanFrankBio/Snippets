@@ -19,7 +19,7 @@ conda env remove -n example_name
 ```
 conda clean --all
 ```
-### Structure of conda environemtn .yml file:
+### Structure of conda environment.yml file:
 ```yml
 name: example_name
 
@@ -28,7 +28,15 @@ channels:
   - example_channel_2
 
 dependencies:
-    - example_package_1=1.0.5
-    - example_package_2=1.1.3
-    - example_package_2=3.0.5
+  - example_package_1=1.0.5
+  - example_package_2=1.1.3
+  - example_package_2=3.0.5
 ``` 
+### Uninstall conda
+```
+conda activate base
+conda install anaconda-clean
+anaconda-clean --yes
+rm -rf path/to/miniconda3
+rm -rf ~/.anaconda_backup
+```
