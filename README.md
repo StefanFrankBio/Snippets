@@ -15,6 +15,10 @@ conda env create -f example.yml
 ```
 conda env remove -n example_name
 ```
+### Remove unused packages:
+```
+conda clean --all
+```
 ### Structure of conda environemtn .yml file:
 ```yml
 name: example_name
