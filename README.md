@@ -1,4 +1,3 @@
-# Conda
 ### Search for all available package verions in conda channel:
 ```
 conda search -c example_channel -f example_package
@@ -32,11 +31,16 @@ dependencies:
   - example_package_2=1.1.3
   - example_package_2=3.0.5
 ``` 
-### Uninstall conda
+### Uninstall conda:
 ```
 conda activate base
 conda install anaconda-clean
 anaconda-clean --yes
 rm -rf path/to/miniconda3
 rm -rf ~/.anaconda_backup
+```
+### Create executable bash script:
+```bash
+#!/bin/bash
+chmod +x myscript.sh
 ```
