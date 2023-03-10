@@ -44,3 +44,7 @@ rm -rf ~/.anaconda_backup
 #!/bin/bash
 chmod +x myscript.sh
 ```
+### Redirect stdout and stderr to the same file
+```bash
+command > log.txt 2>&1
+```
