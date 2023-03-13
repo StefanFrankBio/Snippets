@@ -52,3 +52,7 @@ command > log.txt 2>&1
 ```bash
 command > stdout.log 2> stderr.log
 ```
+### Get the size of a file or directory:
+```bash
+du -sh example_file
+```
