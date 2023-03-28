@@ -56,3 +56,7 @@ command > stdout.log 2> stderr.log
 ```bash
 du -sh example_file
 ```
+### Delete all empty files and directories:
+```bash
+find . -type f -empty -delete -o -type d -empty -delete
+```
